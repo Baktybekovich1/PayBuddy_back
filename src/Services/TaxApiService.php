@@ -29,7 +29,7 @@ class TaxApiService
             $products
         );
 
-        return $date;
+        return $answer;
     }
 
     public function getProducts(array $products): array

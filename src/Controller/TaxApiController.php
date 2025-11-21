@@ -40,8 +40,7 @@ class TaxApiController extends AbstractController
 
             // Возвращаем данные с налогового сервиса
             return $this->json([
-                'success' => true,
-                'data' => $taxData
+                'data' => $this->taxApiService->TaxApi($taxData),
             ]);
 
         } catch (\Exception $e) {

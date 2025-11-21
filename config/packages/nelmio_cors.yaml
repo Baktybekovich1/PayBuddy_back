@@ -6,4 +6,4 @@ nelmio_cors:
         allow_methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
     paths:
         '^/':
-            allow_origin: ['*']
+            null
